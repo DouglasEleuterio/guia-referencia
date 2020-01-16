@@ -36,10 +36,16 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-<!--        JPA-->
+        <!--JPA-->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
+        </dependency>
+        <!--BANCO H2-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
