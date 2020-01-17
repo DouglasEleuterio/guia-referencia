@@ -1,0 +1,1 @@
+insert into usuario values (NULL,'admin','dasfe65186','ADMIN');
